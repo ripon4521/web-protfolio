@@ -6,9 +6,12 @@ h1{
     font-size: 50px;
 
 }
+p{
+    color: dimgray;
+}
 .Name-Highlight{
     color: orange;
-    font-size: 60px;
+    
 }
 .half-width{
     width: 40%;
@@ -25,6 +28,7 @@ h1{
 }
 section{
      height: 500px;
+     padding-bottom: 300px;
      
 }
 .link-button{
@@ -37,3 +41,37 @@ section{
 
 
 }
+.Dream{
+    background-image: url(./image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience{
+    margin-left: 40%;
+}
+.single-work{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 50%;
+    background-color: #fff;
+}
+.experience-area{
+    background-image: url(./image/exp-bg.png);
+    background-repeat: no-repeat;
+    
+
+}
+#Full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan );
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
+
